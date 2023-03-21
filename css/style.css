@@ -1,0 +1,197 @@
+body {
+  background-color: #4488AA;
+  font-family: 'Lucida Bright', serif;
+  color: #99EEEE;
+}
+
+.menu {
+  width: 25%;
+  vertical-align: top;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #99EEEE;
+}
+
+.menu-circle {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #4488AA;
+  margin-right: 10px;
+}
+
+.menu a:hover {
+  background-color: #99EEEE;
+  color: #4488AA;
+}
+
+.content {
+  text-align: center;
+}
+
+.intro {
+  font-family: 'Liberation', sans-serif;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.header {
+  text-align: center;
+}
+
+#logo {
+  width: 200px;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #99EEEE;
+  height: 1px;
+  width: 490px;
+  margin: 0 auto;
+}
+
+.footer {
+  text-align: center;
+}
+
+address {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 14px;
+
+  margin-top: 50px;
+  margin-left: 20px;
+  }
+  
+  hr {
+  border: none;
+  border-top: 1px solid #99EEEE;
+  height: 1px;
+  width: 490px;
+  margin: 0 auto;
+  }
+  
+  a {
+  color: #FFFFFF;
+  text-decoration: none;
+  }
+  
+  a:visited {
+  color: #99EEEE;
+  }
+  
+  .menu a {
+  display: block;
+  padding: 10px;
+  background-color: #4488AA;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  }
+  
+  .menu a:hover {
+  background-color: #99EEEE;
+  color: #4488AA;
+  }
+  
+  /* estilo para a tabela de bordas invisíveis */
+  table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: none;
+  }
+  
+  td {
+  padding: 20px;
+  text-align: center;
+  vertical-align: top;
+  }
+  
+  th {
+  font-family: 'Verdana', sans-serif;
+  font-size: 18px;
+  text-align: center;
+  padding-bottom: 20px;
+  }
+  
+  /* estilo para o logotipo */
+  #logo {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  margin-top: 20px;
+  }
+  
+  /* estilo para o título principal */
+  .main-title {
+  font-family: 'Lucida Bright', serif;
+  font-size: 36px;
+  color: #99EEEE;
+  margin-bottom: 30px;
+  text-align: center;
+  }
+  
+  /* estilo para o texto principal */
+  .main-text {
+  font-family: 'Liberation', sans-serif;
+  font-size: 20px;
+  color: #99EEEE;
+  text-align: justify;
+  margin-bottom: 50px;
+  }
+  
+  /* estilo para a imagem do logotipo principal */
+  #main-logo {
+  display: block;
+  margin: 0 auto;
+  width: 300px;
+  margin-top: 50px;
+  }
+  
+  /* estilo para os círculos no menu */
+  .menu li {
+  list-style-type: none;
+  }
+  
+  .menu li a:before {
+  content: "\25CF";
+  padding-right: 10px;
+  color: #FFFFFF;
+  }
+  
+  /* responsividade */
+  @media only screen and (max-width: 600px) {
+  .main-title {
+  font-size: 28px;
+  }
+  
+  .main-text {
+  font-size: 16px;
+  }
+  
+  #main-logo {
+  width: 200px;
+  margin-top: 30px;
+  }
+  
+  td {
+  padding: 10px;
+  }
+  }
